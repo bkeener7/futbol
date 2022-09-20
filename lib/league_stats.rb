@@ -7,7 +7,7 @@ class LeagueStats < CSV_loader
   def team_offense(team_header, goals_header, csv)
     team_offense = Hash.new(0)
     games_played = Hash.new(0)
-    csv.each { |row| team_offense[row[team_header]] += row[goals_header].to_f
+    csv.each { |row| team_offense[row[team_header]] += rowg[goals_header].to_f
     games_played[row[team_header]] += 1 }
     offense_percent = team_offense.merge(games_played) { |_, goals, games_played| goals / games_played }
   end   
