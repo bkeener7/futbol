@@ -2,13 +2,13 @@ require 'csv'
 require 'rspec'
 require './lib/league_stats.rb'
 
-RSpec.describe LeagueStats do 
-  before(:each) do 
+RSpec.describe LeagueStats do
+  before(:each) do
     @leaguestats = LeagueStats.from_csv_paths({game_csv:'./data/games.csv', gameteam_csv:'./data/game_teams.csv', team_csv:'./data/teams.csv'})
   end
 
   it 'calculates offensive percent'do
- 
+
     expected = {"3"=>2.1261770244821094,
       "6"=>2.2627450980392156,
       "5"=>2.286231884057971,
@@ -46,7 +46,7 @@ RSpec.describe LeagueStats do
   end
 
   it '#count_of_teams'do
-      expect(@leaguestats.count_of_teams).to eq 32
+    expect(@leaguestats.count_of_teams).to eq 32
   end
 
   it '#best_offense' do
@@ -69,7 +69,7 @@ RSpec.describe LeagueStats do
     expect(@leaguestats.lowest_scoring_visitor).to eq "San Jose Earthquakes"
   end
 
-   
+
   it '#lowest_scoring_home_team' do
     expect(@leaguestats.lowest_scoring_home_team).to eq "Utah Royals FC"
   end

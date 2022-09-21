@@ -1,7 +1,7 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/sage/Turing/1_mod/projects/futbol/spec/spec_helper.rb": {
+      "/Users/jameswhite/Desktop/Turing/1moda/group_project/futbol/spec/spec_helper.rb": {
         "lines": [
           1,
           1,
@@ -16,7 +16,7 @@
           null
         ]
       },
-      "/Users/sage/Turing/1_mod/projects/futbol/spec/stat_tracker_spec.rb": {
+      "/Users/jameswhite/Desktop/Turing/1moda/group_project/futbol/spec/stat_tracker_spec.rb": {
         "lines": [
           1,
           1,
@@ -188,7 +188,7 @@
           null
         ]
       },
-      "/Users/sage/Turing/1_mod/projects/futbol/lib/stat_tracker.rb": {
+      "/Users/jameswhite/Desktop/Turing/1moda/group_project/futbol/lib/stat_tracker.rb": {
         "lines": [
           1,
           1,
@@ -292,7 +292,7 @@
           null
         ]
       },
-      "/Users/sage/Turing/1_mod/projects/futbol/lib/league_stats.rb": {
+      "/Users/jameswhite/Desktop/Turing/1moda/group_project/futbol/lib/league_stats.rb": {
         "lines": [
           1,
           1,
@@ -338,7 +338,7 @@
           null
         ]
       },
-      "/Users/sage/Turing/1_mod/projects/futbol/lib/csv_loader.rb": {
+      "/Users/jameswhite/Desktop/Turing/1moda/group_project/futbol/lib/csv_loader.rb": {
         "lines": [
           1,
           null,
@@ -371,7 +371,7 @@
           null
         ]
       },
-      "/Users/sage/Turing/1_mod/projects/futbol/lib/teamid.rb": {
+      "/Users/jameswhite/Desktop/Turing/1moda/group_project/futbol/lib/teamid.rb": {
         "lines": [
           1,
           1,
@@ -380,7 +380,7 @@
           null
         ]
       },
-      "/Users/sage/Turing/1_mod/projects/futbol/lib/game_stats.rb": {
+      "/Users/jameswhite/Desktop/Turing/1moda/group_project/futbol/lib/game_stats.rb": {
         "lines": [
           1,
           null,
@@ -437,7 +437,7 @@
           null
         ]
       },
-      "/Users/sage/Turing/1_mod/projects/futbol/lib/season_stats.rb": {
+      "/Users/jameswhite/Desktop/Turing/1moda/group_project/futbol/lib/season_stats.rb": {
         "lines": [
           1,
           1,
@@ -494,7 +494,7 @@
           null
         ]
       },
-      "/Users/sage/Turing/1_mod/projects/futbol/lib/team_stats.rb": {
+      "/Users/jameswhite/Desktop/Turing/1moda/group_project/futbol/lib/team_stats.rb": {
         "lines": [
           1,
           null,
@@ -630,7 +630,7 @@
           null
         ]
       },
-      "/Users/sage/Turing/1_mod/projects/futbol/lib/attr_readable.rb": {
+      "/Users/jameswhite/Desktop/Turing/1moda/group_project/futbol/lib/attr_readable.rb": {
         "lines": [
           1,
           null,
@@ -656,68 +656,7 @@
           null
         ]
       },
-      "/Users/sage/Turing/1_mod/projects/futbol/spec/game_stats_spec.rb": {
-        "lines": [
-          1,
-          1,
-          1,
-          null,
-          1,
-          1,
-          8,
-          null,
-          null,
-          1,
-          1,
-          null,
-          null,
-          1,
-          1,
-          null,
-          null,
-          1,
-          1,
-          null,
-          null,
-          1,
-          1,
-          null,
-          null,
-          1,
-          1,
-          null,
-          null,
-          1,
-          1,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          1,
-          null,
-          null,
-          1,
-          1,
-          null,
-          null,
-          1,
-          1,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          1,
-          null,
-          null
-        ]
-      },
-      "/Users/sage/Turing/1_mod/projects/futbol/spec/league_stats_spec.rb": {
+      "/Users/jameswhite/Desktop/Turing/1moda/group_project/futbol/spec/game_stats_spec.rb": {
         "lines": [
           1,
           1,
@@ -729,44 +668,6 @@
           null,
           null,
           1,
-          null,
-          1,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          1,
-          null,
-          null,
-          1,
           1,
           null,
           null,
@@ -791,27 +692,6 @@
           null,
           null,
           null,
-          1,
-          1,
-          null,
-          null
-        ]
-      },
-      "/Users/sage/Turing/1_mod/projects/futbol/spec/team_stats_spec.rb": {
-        "lines": [
-          1,
-          1,
-          1,
-          null,
-          1,
-          1,
-          8,
-          null,
-          null,
-          1,
-          null,
-          1,
-          null,
           null,
           null,
           null,
@@ -827,29 +707,17 @@
           1,
           null,
           null,
-          1,
-          1,
           null,
           null,
-          1,
-          1,
           null,
           null,
-          1,
-          1,
           null,
-          null,
-          1,
-          1,
-          null,
-          null,
-          1,
           1,
           null,
           null
         ]
       },
-      "/Users/sage/Turing/1_mod/projects/futbol/spec/season_stats_spec.rb": {
+      "/Users/jameswhite/Desktop/Turing/1moda/group_project/futbol/spec/league_stats_spec.rb": {
         "lines": [
           1,
           1,
@@ -895,6 +763,138 @@
           null,
           null,
           null,
+          1,
+          null,
+          null,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          null,
+          null,
+          null,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/jameswhite/Desktop/Turing/1moda/group_project/futbol/spec/team_stats_spec.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          null,
+          1,
+          1,
+          8,
+          null,
+          null,
+          1,
+          null,
+          1,
+          null,
+          null,
+          null,
+          null,
+          null,
+          1,
+          null,
+          null,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/jameswhite/Desktop/Turing/1moda/group_project/futbol/spec/season_stats_spec.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          null,
+          1,
+          1,
+          8,
+          null,
+          null,
+          1,
+          null,
+          1,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
           null,
           null,
           1,
@@ -969,7 +969,7 @@
           null
         ]
       },
-      "/Users/sage/Turing/1_mod/projects/futbol/spec/csv_loader_spec.rb": {
+      "/Users/jameswhite/Desktop/Turing/1moda/group_project/futbol/spec/csv_loader_spec.rb": {
         "lines": [
           1,
           1,
@@ -994,6 +994,5 @@
         ]
       }
     },
-    "timestamp": 1663714775
   }
 }

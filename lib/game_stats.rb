@@ -1,6 +1,6 @@
 require_relative 'csv_loader'
 
-class GameStats < CSV_loader  
+class GameStats < CSV_loader
 
   def highest_total_score
     @all_games.map { |row| row[:away_goals].to_i + row[:home_goals].to_i }.max
@@ -20,7 +20,7 @@ class GameStats < CSV_loader
   def percentage_visitor_wins
     visitor_wins = 0 && total_wins = 0
     @all_games.each { |row|visitor_wins += 1 if row[:home_goals].to_f < row[:away_goals].to_f
-      total_wins += 1 }
+    total_wins += 1 }
     (visitor_wins.to_f/total_wins.to_f).round(2)
   end
 
@@ -40,8 +40,8 @@ class GameStats < CSV_loader
   def average_goals_per_game
     total_games = 0 && average = 0 && total_goals = 0
     @all_games.each { |row| total_goals += row[:home_goals].to_i + row[:away_goals].to_i
-      total_games += 1 }
-      (total_goals.to_f / total_games.to_f).round(2)
+    total_games += 1 }
+    (total_goals.to_f / total_games.to_f).round(2)
   end
 
   def average_goals_by_season

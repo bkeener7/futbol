@@ -16,11 +16,6 @@ RSpec.describe StatTracker do
 
       @stat_tracker = StatTracker.from_csv(@locations)
   end
-
-  it '#exists' do
-      expect(@stat_tracker).to be_an_instance_of(StatTracker)
-  end
-
   it '#highest_total_score' do
     expect(@stat_tracker.highest_total_score).to eq 11
   end
@@ -70,7 +65,7 @@ RSpec.describe StatTracker do
   end
 
   it '#count_of_teams'do
-      expect(@stat_tracker.count_of_teams).to eq 32
+    expect(@stat_tracker.count_of_teams).to eq 32
   end
 
   it '#best_offense' do

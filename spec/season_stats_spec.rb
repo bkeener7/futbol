@@ -4,7 +4,7 @@ require './lib/season_stats'
 
 RSpec.describe SeasonStats do
   before(:each) do
-    @seasonstats = SeasonStats.from_csv_paths({game_csv:'./data/games.csv', gameteam_csv:'./data/game_teams.csv', team_csv:'./data/teams.csv'})
+   @seasonstats = SeasonStats.from_csv_paths({game_csv:'./data/games.csv', gameteam_csv:'./data/game_teams.csv', team_csv:'./data/teams.csv'})
   end
 
   it "maps coach records for a particular season" do
