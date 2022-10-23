@@ -6,7 +6,7 @@ require_relative 'team_stats'
 require_relative 'attr_readable'
 
 class StatTracker
- include AttrReadable
+  include AttrReadable
 
   def initialize(game_path, team_path, game_teams_path)
     @locations = {
@@ -96,5 +96,4 @@ class StatTracker
   def rival(id)
     @team_stats.rival(id)
   end
-
 end
